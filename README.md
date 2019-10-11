@@ -1,7 +1,7 @@
 # test subs
 
 
-Local test (seems to work)
+Local test **works**
 
 ```
 docker-compose up
@@ -12,7 +12,7 @@ npm run local
 ```
 
 
-Run against rinkeby:
+Run against rinkeby **fails**
 
 ```
 npm run rinkeby
