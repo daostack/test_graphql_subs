@@ -1,0 +1,18 @@
+{
+    "extends": [
+      "eslint:recommended",
+    ],
+    "env": {
+      "amd": true,
+      "node": true,
+      "es6": true,
+    },
+    "rules": {
+        "max-len": "off",
+        "no-console": "off",
+        "comma-dangle": ["error" ,"never"],
+        "semi": ["error", "never"],
+        "eol-last": "error",
+        "eqeqeq": "error",
+    },
+}

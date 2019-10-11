@@ -1,0 +1,22 @@
+{
+  "name": "daostack-bot",
+  "version": "1.0.0",
+  "description": "bots for fun and profit",
+  "main": "index.js",
+  "scripts": {
+    "local": "cross-env NETWORK=local node index.js",
+    "rinkeby": "cross-env NETWORK=rinkeby node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@daostack/client": "^0.2.16",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.2"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "graphql-tag": "^2.10.1",
+    "node-mailer": "^0.1.1"
+  }
+}
